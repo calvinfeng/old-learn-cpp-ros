@@ -1,4 +1,4 @@
-#include "House.h"
+#include "house.h"
 #include <iostream>
 
 using namespace std;

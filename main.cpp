@@ -2,7 +2,7 @@
 // Created by cfeng on 4/13/17.
 //
 #include <iostream>
-#include "House.h"
+#include "house.h"
 #include <string>
 
 using namespace std;
