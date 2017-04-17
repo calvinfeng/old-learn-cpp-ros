@@ -2,6 +2,7 @@
 #include <iomanip>
 
 using namespace std;
+
 int main()
 {
     double mpg, distance, gallons, pricePerGallon, totalCost;

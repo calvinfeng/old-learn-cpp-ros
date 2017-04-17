@@ -23,14 +23,8 @@ set(
 add_library(classes OBJECT ${OBJECT_SOURCES})
 
 
-#add_executable(CPPTutorials ${SOURCE_FILES})
-#add_executable(Tutorials main.cpp $<TARGET_OBJECTS:classes>)
+# add_executable(CPPTutorials ${SOURCE_FILES})
+# add_executable(Tutorials main.cpp $<TARGET_OBJECTS:classes>)
 add_executable(Tutorials main.cpp house.h house.cpp)
-#add_executable(Pointer pointer.cpp)
-#add_executable(Vectors vectors.cpp)
-
-# Make a directory and call it build
-# $ mkdir build
-# $ cd build
-# $ cmake ..
-
+add_executable(Pointer pointer.cpp)
+add_executable(Vectors vectors.cpp)

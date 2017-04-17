@@ -35,6 +35,4 @@ int main() {
     *charPointer += 25;
     cout << *charPointer << endl;
     cout << letter << endl;
-
-
 }
